@@ -144,7 +144,7 @@ toggleButton.addEventListener('click', () => {
 if (isPlaying) {
   // 음악 정지 및 이미지 변경
   audioPlayer.pause();
-  toggleButton.src = "icon/bgm2.png";  // 정지-이미지 변경
+  toggleButton.src = "icon/bgm2.PNG";  // 정지-이미지 변경
   isPlaying = false;
 } else {     // 음악 재생 및 이미지 변경
   if (audioPlayer.paused && audioPlayer.currentTime === 0) {      // 처음 재생하는 경우
@@ -152,7 +152,7 @@ if (isPlaying) {
   } else {    // 이어서
     audioPlayer.play();
   }
-  toggleButton.src = "icon/bgm1.png";  // 재생-이미지 변경
+  toggleButton.src = "icon/bgm1.PNG";  // 재생-이미지 변경
   isPlaying = true;
 }
 });
